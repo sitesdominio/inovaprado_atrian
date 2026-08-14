@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Desafios — Inova Prado 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===================== HEADER ===================== -->
+<header class="header">
+    <div class="header-inner">
+        <a href="landing.html" class="logo">
+            <img src="img/atrian.png" alt="Logo Inova Prado">
+        </a>
+        <a href="landing.html" class="header-title">Inova Prado</a>
+        <div class="header-direita">
+            <nav class="menu" id="menu">
+                <a href="desafios.html">Desafios</a>
+                <a href="regulamento.html">Regulamento</a>
+                <a href="inscricao.html">Inscrições</a>
+            </nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </div>
+</header>
+
+<main>
+
+    <!-- ===================== TOPO DA PÁGINA ===================== -->
+    <section class="pagina-topo">
+        <div class="container">
+            <span class="badge-secao">Desafios</span>
+            <h1 class="pagina-topo-titulo">9 desafios reais. <span>3 eixos temáticos.</span></h1>
+            <p class="pagina-topo-desc">Cada equipe escolhe um desafio para resolver ao longo do hackathon. Conheça abaixo os problemas reais da nossa região, organizados nos eixos de Educação, Tecnologia e Infraestrutura.</p>
+        </div>
+    </section>
+
+    <div class="secao-transicao secao-transicao--grad-para-solido" aria-hidden="true"></div>
+
+    <!-- ===================== LISTA DE DESAFIOS ===================== -->
+    <section class="desafios-conteudo">
+        <div class="container">
+            <div class="eixo-bloco">
+                <div class="eixo-cabecalho"><span class="eixo-numero">Eixo 01</span><h2 class="eixo-titulo">Educação</h2></div>
+                <p class="eixo-desc">Soluções para fortalecer a aprendizagem, a inclusão e a gestão escolar da região.</p>
+                <div class="cards-grid">
+                    <div class="desafio-card-completo" tabindex="0" role="button" aria-expanded="false">
+                        <span class="desafio-codigo">D1</span>
+                        <h3 class="desafio-card-titulo2">Alfabetização na Idade Certa</h3>
+                        <p>Desenvolva uma solução que apoie professores e famílias a identificar precocemente dificuldades de alfabetização e agir de forma personalizada.</p>
+                        <span class="desafio-ver-mais">Ver detalhes <span class="seta" aria-hidden="true">⌄</span></span>
+                        <template class="desafio-detalhe">
+                            <h4 class="desafio-painel-titulo">D1 — Alfabetização na Idade Certa</h4>
+                            <div class="detalhe-item aberto">
+                                <button class="detalhe-pergunta"><span>Contexto e Problematização</span><span class="detalhe-seta">⌄</span></button>
+                                <div class="detalhe-resposta"><p>A alfabetização plena até o final do 2º ano do Ensino Fundamental é o alicerce do desenvolvimento educacional. No Rio Grande do Sul, apenas 52% das crianças estavam alfabetizadas na idade certa em 2025, abaixo da meta estadual de 69%. Em Gravataí, a rede municipal atende mais de 28.200 estudantes em 99 escolas; o índice atual é de 63,6%, com meta de chegar a 80% até 2027. A falta de acompanhamento individualizado, de métodos para diferentes ritmos e de comunicação efetiva entre família e escola ainda limita avanços.</p></div>
+                            </div>
+                            <div class="detalhe-item">
+                                <button class="detalhe-pergunta"><span>Desafio da Equipe</span><span class="detalhe-seta">⌄</span></button>
+                                <div class="detalhe-resposta"><p>Como desenvolver uma solução tecnológica que apoie professores e famílias a identificar precocemente dificuldades de alfabetização e a agir de forma personalizada, contribuindo para que mais crianças de Gravataí e da região sejam alfabetizadas na idade certa?</p></div>
+                            </div>
+                            <div class="detalhe-item">
+                                <button class="detalhe-pergunta"><span>Exemplos</span><span class="detalhe-seta">⌄</span></button>
+                                <div class="detalhe-resposta"><p>• Plataforma de diagnóstico de aprendizagem com avaliações adaptativas e atividades direcionadas.<br>• Aplicativo família-escola que comunica o progresso e sugere atividades para casa.<br>• Dashboard para gestores com indicadores por turma e escola.<br>• Recurso gamificado de leitura e escrita acessível por celular ou tablet de baixo custo.</p></div>
+                            </div>
+                        </template>
+                    </div>
+
+                    <div class="desafio-card-completo" tabindex="0" role="button" aria-expanded="false">
+                        <span class="desafio-codigo">D2</span>
+                        <h3 class="desafio-card-titulo2">Inclusão Escolar Efetiva</h3>
+                        <p>Crie uma solução que fortaleça a inclusão de estudantes com deficiência ou necessidades educacionais especiais no cotidiano escolar.</p>
+                        <span class="desafio-ver-mais">Ver detalhes <span class="seta" aria-hidden="true">⌄</span></span>
+                        <template class="desafio-detalhe">
+                            <h4 class="desafio-painel-titulo">D2 — Inclusão Escolar Efetiva</h4>
+                            <div class="detalhe-item aberto">
+                                <button class="detalhe-pergunta"><span>Contexto e Problematização</span><span class="detalhe-seta">⌄</span></button>
+                                <div class="detalhe-resposta"><p>A educação inclusiva é garantida pela Lei Brasileira de Inclusão, mas sua implementação ainda enfrenta falta de profissionais de apoio, adaptações curriculares, tecnologias assistivas acessíveis e formação continuada. O resultado pode ser uma inclusão apenas burocrática, sem participação plena nas atividades acadêmicas e sociais. Em Gravataí, os serviços de educação especial existem, mas a capacidade de atendimento e o suporte ao professor do ensino regular permanecem como gargalos.</p></div>
+                            </div>
+                            <div class="detalhe-item">
+                                <button class="detalhe-pergunta"><span>Desafio da Equipe</span><span class="detalhe-seta">⌄</span></button>
+                                <div class="detalhe-resposta"><p>Como criar uma solução tecnológica que vá além da inclusão burocrática, apoiando professores a adaptar suas práticas, monitorar o desenvolvimento de alunos com necessidades especiais e conectar escola, família e profissionais de saúde e apoio de forma integrada?</p></div>
+                            </div>
+                            <div class="detalhe-item">
+                                <button class="detalhe-pergunta"><span>Exemplos</span><span class="detalhe-seta">⌄</span></button>
+                                <div class="detalhe-resposta"><p>• Plataforma de formação continuada com módulos práticos sobre metodologias inclusivas.<br>• Checklist digital de acessibilidade com diagnóstico de barreiras e plano de ação.<br>• Materiais educacionais em múltiplos formatos, como áudio, Libras e PECS, com opção offline.<br>• Sistema integrado de acompanhamento entre escola, família e saúde.</p></div>
+                            </div>
+                        </template>
+                    </div>
+
+                    <div class="desafio-card-completo" tabindex="0" role="button" aria-expanded="false">
+                        <span class="desafio-codigo">D3</span>
+                        <h3 class="desafio-card-titulo2">Logística Escolar e Automação de Operações Acadêmicas</h3>
+                        <p>Simplifique processos administrativos e logísticos do cotidiano escolar para liberar profissionais para o ensino.</p>
+                        <span class="desafio-ver-mais">Ver detalhes <span class="seta" aria-hidden="true">⌄</span></span>
+                        <template class="desafio-detalhe">
+                            <h4 class="desafio-painel-titulo">D3 — Logística Escolar e Automação de Operações Acadêmicas</h4>
+                            <div class="detalhe-item aberto">
+                                <button class="detalhe-pergunta"><span>Contexto e Problematização</span><span class="detalhe-seta">⌄</span></button>
+                                <div class="detalhe-resposta"><p>Escolas lidam diariamente com frequência, matrículas, comunicação com famílias, horários, documentos, transporte e materiais. A digitalização ainda é desigual: apenas 30,4% das escolas públicas tinham internet em velocidade adequada em 2023. Quando os processos são manuais ou ficam fragmentados em ferramentas sem integração, erros aumentam, a comunicação falha e professores perdem tempo com burocracia.</p></div>
+                            </div>
+                            <div class="detalhe-item">
+                                <button class="detalhe-pergunta"><span>Desafio da Equipe</span><span class="detalhe-seta">⌄</span></button>
+                                <div class="detalhe-resposta"><p>Como criar uma solução que automatize ou simplifique um ou mais processos logísticos e administrativos — como frequência, comunicação com famílias, agendamentos, emissão de documentos ou gestão de transporte — tornando a escola mais eficiente e liberando profissionais para o ensino?</p></div>
+                            </div>
+                            <div class="detalhe-item">
+                                <button class="detalhe-pergunta"><span>Exemplos</span><span class="detalhe-seta">⌄</span></button>
+                                <div class="detalhe-resposta"><p>• Controle de frequência com check-in digital e alertas para famílias.<br>• Plataforma integrada de comunicação escola-família.<br>• Autoatendimento para emissão de declarações e históricos.<br>• Gestão inteligente de transporte escolar, rotas e embarque.</p></div>
+                            </div>
+                        </template>
+                    </div>
+                </div>
+                <div class="desafio-painel"><div class="desafio-painel-inner"><button class="desafio-painel-fechar" aria-label="Fechar detalhes">✕</button><div class="desafio-painel-corpo"></div></div></div>
+            </div>
+
+            <div class="eixo-bloco">
+                <div class="eixo-cabecalho"><span class="eixo-numero">Eixo 02</span><h2 class="eixo-titulo">Tecnologia</h2></div>
+                <p class="eixo-desc">Soluções digitais para integrar dados, automatizar serviços e aproximar a tecnologia das comunidades da região.</p>
+                <div class="cards-grid">
+                    <div class="desafio-card-completo" tabindex="0" role="button" aria-expanded="false">
+                        <span class="desafio-codigo">D4</span>
+                        <h3 class="desafio-card-titulo2">Integração e Governança de Dados</h3>
+                        <p>Desenvolva uma solução que ajude os municípios a organizar, integrar e governar melhor os dados públicos disponíveis.</p>
+                        <span class="desafio-ver-mais">Ver detalhes <span class="seta" aria-hidden="true">⌄</span></span>
+                        <template class="desafio-detalhe">
+                            <h4 class="desafio-painel-titulo">D4 — Integração e Governança de Dados</h4>
+                            <div class="detalhe-item aberto">
+                                <button class="detalhe-pergunta"><span>Contexto e Problematização</span><span class="detalhe-seta">⌄</span></button>
+                                <div class="detalhe-resposta"><p>A fragmentação de sistemas e bases descentralizadas cria silos de informação que dificultam uma visão integrada da cidade. Secretarias e departamentos operam com sistemas próprios, sem interoperabilidade, o que gera retrabalho e impede decisões baseadas em evidências. Em Gravataí, o ecossistema local de inovação já demonstrou capacidade de criar soluções digitais de impacto; o desafio é transformar dados dispersos em inteligência acionável.</p></div>
+                            </div>
+                            <div class="detalhe-item">
+                                <button class="detalhe-pergunta"><span>Desafio da Equipe</span><span class="detalhe-seta">⌄</span></button>
+                                <div class="detalhe-resposta"><p>Como projetar uma solução que facilite a integração ou o acesso a dados de diferentes áreas ou secretarias de Gravataí e região, promova transparência pública, permita decisões baseadas em evidências e seja viável de implementar com os recursos tecnológicos locais?</p></div>
+                            </div>
+                            <div class="detalhe-item">
+                                <button class="detalhe-pergunta"><span>Exemplos</span><span class="detalhe-seta">⌄</span></button>
+                                <div class="detalhe-resposta"><p>• Painel integrado de indicadores municipais para educação, saúde, infraestrutura e assistência social.<br>• Portal interativo de dados abertos para cidadãos.<br>• Sistema de alertas inteligentes que identifique padrões críticos.<br>• Identificador único do cidadão com respeito à LGPD.</p></div>
+                            </div>
+                        </template>
+                    </div>
+
+                    <div class="desafio-card-completo" tabindex="0" role="button" aria-expanded="false">
+                        <span class="desafio-codigo">D5</span>
+                        <h3 class="desafio-card-titulo2">IA e Automação para Serviços</h3>
+                        <p>Crie ferramentas baseadas em inteligência artificial e automação capazes de otimizar o atendimento e a prestação de serviços públicos.</p>
+                        <span class="desafio-ver-mais">Ver detalhes <span class="seta" aria-hidden="true">⌄</span></span>
+                        <template class="desafio-detalhe">
+                            <h4 class="desafio-painel-titulo">D5 — IA e Automação para Serviços</h4>
+                            <div class="detalhe-item aberto">
+                                <button class="detalhe-pergunta"><span>Contexto e Problematização</span><span class="detalhe-seta">⌄</span></button>
+                                <div class="detalhe-resposta"><p>A inteligência artificial já está acessível, mas muitos serviços ainda dependem de triagem manual, respostas repetitivas e processos demorados. Pequenos negócios e órgãos públicos acumulam dados que poderiam orientar decisões, porém faltam soluções simples, seguras e adaptadas à realidade local. O desafio não é construir uma IA do zero, e sim identificar um processo específico em que a automação gere valor mensurável.</p></div>
+                            </div>
+                            <div class="detalhe-item">
+                                <button class="detalhe-pergunta"><span>Desafio da Equipe</span><span class="detalhe-seta">⌄</span></button>
+                                <div class="detalhe-resposta"><p>Como aplicar inteligência artificial ou automação em um serviço público, negócio ou organização local para reduzir tempo, erros e custos, mantendo transparência, supervisão humana e proteção de dados?</p></div>
+                            </div>
+                            <div class="detalhe-item">
+                                <button class="detalhe-pergunta"><span>Exemplos</span><span class="detalhe-seta">⌄</span></button>
+                                <div class="detalhe-resposta"><p>• Chatbot que responde dúvidas e encaminha solicitações ao setor correto.<br>• Análise preditiva de demanda e estoque para pequenos negócios.<br>• Geração automática de relatórios e documentos.<br>• IA para triagem e priorização de atendimentos sociais.</p></div>
+                            </div>
+                        </template>
+                    </div>
+
+                    <div class="desafio-card-completo" tabindex="0" role="button" aria-expanded="false">
+                        <span class="desafio-codigo">D6</span>
+                        <h3 class="desafio-card-titulo2">Plataformas Digitais para a Comunidade</h3>
+                        <p>Crie uma plataforma digital que resolva uma lacuna real de conexão entre cidadãos, organizações, comércios ou serviços.</p>
+                        <span class="desafio-ver-mais">Ver detalhes <span class="seta" aria-hidden="true">⌄</span></span>
+                        <template class="desafio-detalhe">
+                            <h4 class="desafio-painel-titulo">D6 — Plataformas Digitais para a Comunidade</h4>
+                            <div class="detalhe-item aberto">
+                                <button class="detalhe-pergunta"><span>Contexto e Problematização</span><span class="detalhe-seta">⌄</span></button>
+                                <div class="detalhe-resposta"><p>Gravataí possui organizações comunitárias, voluntários, pequenos comerciantes e entidades sociais, mas esses atores nem sempre estão conectados digitalmente. Cidadãos têm dificuldade para encontrar serviços locais, oportunidades de voluntariado, eventos e canais de participação. O GSSA, desenvolvido por um estudante de Gravataí após as enchentes de 2024, demonstra que plataformas com raízes comunitárias podem gerar impacto social relevante.</p></div>
+                            </div>
+                            <div class="detalhe-item">
+                                <button class="detalhe-pergunta"><span>Desafio da Equipe</span><span class="detalhe-seta">⌄</span></button>
+                                <div class="detalhe-resposta"><p>Como criar uma plataforma digital que resolva um problema real de conexão no município de Gravataí e região, gere impacto social mensurável e seja tecnicamente viável para adoção em escala pela comunidade?</p></div>
+                            </div>
+                            <div class="detalhe-item">
+                                <button class="detalhe-pergunta"><span>Exemplos</span><span class="detalhe-seta">⌄</span></button>
+                                <div class="detalhe-resposta"><p>• Mapa digital de serviços e organizações comunitárias.<br>• Plataforma de participação cidadã para reportar e acompanhar problemas urbanos.<br>• Aplicativo que conecta voluntários a causas sociais.<br>• Rede de troca, doação e economia circular entre moradores.</p></div>
+                            </div>
+                        </template>
+                    </div>
+                </div>
+                <div class="desafio-painel"><div class="desafio-painel-inner"><button class="desafio-painel-fechar" aria-label="Fechar detalhes">✕</button><div class="desafio-painel-corpo"></div></div></div>
+            </div>
+
+            <div class="eixo-bloco">
+                <div class="eixo-cabecalho"><span class="eixo-numero">Eixo 03</span><h2 class="eixo-titulo">Infraestrutura</h2></div>
+                <p class="eixo-desc">Soluções para tornar a cidade mais sustentável, acessível, resiliente e preparada para o futuro.</p>
+                <div class="cards-grid">
+                    <div class="desafio-card-completo" tabindex="0" role="button" aria-expanded="false">
+                        <span class="desafio-codigo">D7</span>
+                        <h3 class="desafio-card-titulo2">Gestão de Resíduos Sólidos e Coleta Inteligente</h3>
+                        <p>Desenvolva uma solução para melhorar a gestão de resíduos, a coleta e a participação da população.</p>
+                        <span class="desafio-ver-mais">Ver detalhes <span class="seta" aria-hidden="true">⌄</span></span>
+                        <template class="desafio-detalhe">
+                            <h4 class="desafio-painel-titulo">D7 — Gestão de Resíduos Sólidos e Coleta Inteligente</h4>
+                            <div class="detalhe-item aberto">
+                                <button class="detalhe-pergunta"><span>Contexto e Problematização</span><span class="detalhe-seta">⌄</span></button>
+                                <div class="detalhe-resposta"><p>Gravataí enfrenta desafios estruturais na gestão de resíduos sólidos que impactam o meio ambiente, a saúde pública e a qualidade de vida. A coleta pode ser irregular, a população nem sempre sabe como descartar corretamente e faltam dados integrados para orientar rotas, fiscalização e educação ambiental. Soluções de baixo custo e com participação comunitária podem aumentar a eficiência do sistema.</p></div>
+                            </div>
+                            <div class="detalhe-item">
+                                <button class="detalhe-pergunta"><span>Desafio da Equipe</span><span class="detalhe-seta">⌄</span></button>
+                                <div class="detalhe-resposta"><p>Como melhorar a gestão de resíduos sólidos e a eficiência da coleta em Gravataí e região — por meio de tecnologia, educação cidadã ou engajamento comunitário?</p></div>
+                            </div>
+                            <div class="detalhe-item">
+                                <button class="detalhe-pergunta"><span>Exemplos</span><span class="detalhe-seta">⌄</span></button>
+                                <div class="detalhe-resposta"><p>• Aplicativo com calendário de coleta e localização de ecopontos.<br>• Roteirização inteligente de caminhões e identificação de pontos críticos.<br>• Sistema de denúncia e acompanhamento de descarte irregular.<br>• Programa gamificado de reciclagem para escolas e bairros.</p></div>
+                            </div>
+                        </template>
+                    </div>
+
+                    <div class="desafio-card-completo" tabindex="0" role="button" aria-expanded="false">
+                        <span class="desafio-codigo">D8</span>
+                        <h3 class="desafio-card-titulo2">Conservação e Revitalização de Espaços Públicos</h3>
+                        <p>Crie soluções para conservar, revitalizar e tornar mais seguros e acolhedores os espaços públicos.</p>
+                        <span class="desafio-ver-mais">Ver detalhes <span class="seta" aria-hidden="true">⌄</span></span>
+                        <template class="desafio-detalhe">
+                            <h4 class="desafio-painel-titulo">D8 — Conservação e Revitalização de Espaços Públicos</h4>
+                            <div class="detalhe-item aberto">
+                                <button class="detalhe-pergunta"><span>Contexto e Problematização</span><span class="detalhe-seta">⌄</span></button>
+                                <div class="detalhe-resposta"><p>Praças, parques, calçadas e equipamentos comunitários são essenciais para convivência, lazer e saúde, mas sofrem com manutenção irregular, iluminação insuficiente, acessibilidade limitada e pouca participação da comunidade. A pressão sobre a infraestrutura e os espaços públicos cresce com a expansão urbana, tornando necessário priorizar intervenções e acompanhar sua execução.</p></div>
+                            </div>
+                            <div class="detalhe-item">
+                                <button class="detalhe-pergunta"><span>Desafio da Equipe</span><span class="detalhe-seta">⌄</span></button>
+                                <div class="detalhe-resposta"><p>Como usar tecnologia e mobilização comunitária para identificar necessidades, priorizar melhorias e acompanhar a conservação e a revitalização de espaços públicos de Gravataí e região?</p></div>
+                            </div>
+                            <div class="detalhe-item">
+                                <button class="detalhe-pergunta"><span>Exemplos</span><span class="detalhe-seta">⌄</span></button>
+                                <div class="detalhe-resposta"><p>• Mapa colaborativo de problemas em praças, parques e calçadas.<br>• Sistema de zeladoria com ordens de serviço e acompanhamento público.<br>• Plataforma de adoção de espaços por escolas, moradores ou empresas.<br>• Solução de acessibilidade que indique rotas e pontos com barreiras.</p></div>
+                            </div>
+                        </template>
+                    </div>
+
+                    <div class="desafio-card-completo" tabindex="0" role="button" aria-expanded="false">
+                        <span class="desafio-codigo">D9</span>
+                        <h3 class="desafio-card-titulo2">Sustentabilidade, Resiliência Climática e Meio Ambiente</h3>
+                        <p>Crie soluções que aumentem a resiliência climática da região frente a eventos extremos.</p>
+                        <span class="desafio-ver-mais">Ver detalhes <span class="seta" aria-hidden="true">⌄</span></span>
+                        <template class="desafio-detalhe">
+                            <h4 class="desafio-painel-titulo">D9 — Sustentabilidade, Resiliência Climática e Meio Ambiente</h4>
+                            <div class="detalhe-item aberto">
+                                <button class="detalhe-pergunta"><span>Contexto e Problematização</span><span class="detalhe-seta">⌄</span></button>
+                                <div class="detalhe-resposta"><p>As enchentes de 2024 mostraram a necessidade de preparar cidades, comunidades e ecossistemas para eventos extremos. Além de alertas, são necessárias ações de monitoramento, educação ambiental, preservação de áreas verdes e planejamento urbano. Jovens e comunidades podem contribuir com dados e iniciativas concretas para reduzir riscos e proteger o território.</p></div>
+                            </div>
+                            <div class="detalhe-item">
+                                <button class="detalhe-pergunta"><span>Desafio da Equipe</span><span class="detalhe-seta">⌄</span></button>
+                                <div class="detalhe-resposta"><p>Como aumentar a resiliência climática e ambiental de Gravataí e região — por meio de monitoramento, engajamento comunitário, educação ambiental ou infraestrutura verde?</p></div>
+                            </div>
+                            <div class="detalhe-item">
+                                <button class="detalhe-pergunta"><span>Exemplos</span><span class="detalhe-seta">⌄</span></button>
+                                <div class="detalhe-resposta"><p>• Sistema de alerta comunitário que combine nível de rios e previsão do tempo.<br>• Mapa de áreas de risco e rotas seguras para a população.<br>• Solução de educação ambiental imersiva com jogos e experiências digitais.<br>• Monitoramento participativo de rios, áreas verdes e pontos de alagamento.</p></div>
+                            </div>
+                        </template>
+                    </div>
+                </div>
+                <div class="desafio-painel"><div class="desafio-painel-inner"><button class="desafio-painel-fechar" aria-label="Fechar detalhes">✕</button><div class="desafio-painel-corpo"></div></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== CONTAGEM REGRESSIVA ===================== -->
+    <section class="contagem contagem--flutuante" id="contagem" aria-label="Contagem regressiva para o evento">
+        <div class="container contagem-inner">
+            <div class="contagem-pin" aria-hidden="true">
+                <img src="img/icon-pin.png" alt="">
+            </div>
+
+            <div class="contagem-timer" id="countdown">
+                <div class="contagem-bloco"><span id="cd-dias">00</span><label>Dias</label></div>
+                <div class="contagem-bloco"><span id="cd-horas">00</span><label>Horas</label></div>
+                <div class="contagem-bloco"><span id="cd-minutos">00</span><label>Minutos</label></div>
+                <div class="contagem-bloco"><span id="cd-segundos">00</span><label>Segundos</label></div>
+            </div>
+
+            <div class="contagem-cta">
+                <p>Venha inovar a região de forma <strong>100% gratuita.</strong></p>
+                <a href="#inscricoes" class="btn-cta btn-cta--outline">Inscreva-se aqui</a>
+            </div>
+
+            <a href="#inscricoes" class="contagem-cta-mini btn-cta btn-cta--outline">Inscreva-se</a>
+
+            <div class="contagem-acoes">
+                <button type="button" class="contagem-btn contagem-minimizar" id="contagemMinimizar" aria-label="Minimizar contagem" aria-expanded="true">−</button>
+                <button type="button" class="contagem-btn contagem-fechar" id="contagemFechar" aria-label="Fechar contagem">×</button>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+    <div class="container footer-inner">
+        <div class="footer-slogan">
+            <h2>Ideias Jovens.<br>Soluções Reais.</h2>
+            <p class="footer-direitos">Todos os direitos reservados à Iniciativa Atrián.</p>
+        </div>
+        <div class="footer-contato">
+            <div class="footer-logo">
+                <img src="img/atrian.png" alt="Atrián">
+                <span>Atrián</span>
+            </div>
+            <p>Email: atrianrs@sinodalprado.com</p>
+            <p>Instagram: @atrianrs</p>
+            <p>Endereço: Av. Rambla del Prado, 660 - Prado Bairro Cidade, Gravataí - RS, 94195-340</p>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Regulamento — Inova Prado 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===================== HEADER ===================== -->
+<header class="header">
+    <div class="header-inner">
+        <a href="landing.html" class="logo">
+            <img src="img/atrian.png" alt="Logo Inova Prado">
+        </a>
+        <a href="landing.html" class="header-title">Inova Prado</a>
+        <div class="header-direita">
+            <nav class="menu" id="menu">
+                <a href="desafios.html">Desafios</a>
+                <a href="regulamento.html">Regulamento</a>
+                <a href="inscricao.html">Inscrições</a>
+            </nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </div>
+</header>
+
+<main>
+
+    <!-- ===================== TOPO DA PÁGINA ===================== -->
+    <section class="pagina-topo">
+        <div class="container">
+            <span class="badge-secao">Regulamento</span>
+
+            <div class="regulamento-grid">
+                <div class="regulamento-lista">
+
+                    <!-- ==== CARD GENÉRICO DE DOCUMENTO ====
+                         Duplique este bloco para adicionar outro documento.
+                         Troque o texto e o href (atualmente genérico: "#") -->
+                    <a href="pdf/Edital Oficial Inova Prado 2026.pdf" class="regulamento-link" target="_blank" rel="noopener">
+                        Edital Oficial Inova Prado 2026
+                    </a>
+
+                    <a href="pdf/Caderno de Desafios e Plano Operacional Inova Prado 2026.pdf" class="regulamento-link" target="_blank" rel="noopener">
+                        Caderno de Desafios e Plano Operacional Inova Prado 2026
+                    </a>
+
+                    <a href="pdf/RUBRICA_OFICIAL_DE_AVALIAÇÃO_2026 (1).pdf" class="regulamento-link" target="_blank" rel="noopener">
+                        Rúbrica Oficial de Avaliação Inova Prado 2026
+                    </a>
+
+                </div>
+
+                <h1 class="regulamento-titulo">Você encontra <span>TUDO</span> sobre o Inova Prado aqui.</h1>
+            </div>
+        </div>
+    </section>
+
+    <div class="secao-transicao secao-transicao--grad-para-solido" aria-hidden="true"></div>
+
+    <section class="contagem contagem--flutuante" id="contagem" aria-label="Contagem regressiva para o evento">
+        <div class="container contagem-inner">
+            <div class="contagem-pin" aria-hidden="true">
+                <img src="img/icon-pin.png" alt="">
+            </div>
+
+            <div class="contagem-timer" id="countdown">
+                <div class="contagem-bloco"><span id="cd-dias">00</span><label>Dias</label></div>
+                <div class="contagem-bloco"><span id="cd-horas">00</span><label>Horas</label></div>
+                <div class="contagem-bloco"><span id="cd-minutos">00</span><label>Minutos</label></div>
+                <div class="contagem-bloco"><span id="cd-segundos">00</span><label>Segundos</label></div>
+            </div>
+
+            <div class="contagem-cta">
+                <p>Venha inovar a região de forma <strong>100% gratuita.</strong></p>
+                <a href="#inscricoes" class="btn-cta btn-cta--outline">Inscreva-se aqui</a>
+            </div>
+
+            <a href="#inscricoes" class="contagem-cta-mini btn-cta btn-cta--outline">Inscreva-se</a>
+
+            <div class="contagem-acoes">
+                <button type="button" class="contagem-btn contagem-minimizar" id="contagemMinimizar" aria-label="Minimizar contagem" aria-expanded="true">−</button>
+                <button type="button" class="contagem-btn contagem-fechar" id="contagemFechar" aria-label="Fechar contagem">×</button>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+    <div class="container footer-inner">
+        <div class="footer-slogan">
+            <h2>Ideias Jovens.<br>Soluções Reais.</h2>
+            <p class="footer-direitos">Todos os direitos reservados à Iniciativa Atrián.</p>
+        </div>
+        <div class="footer-contato">
+            <div class="footer-logo">
+                <img src="img/atrian.png" alt="Atrián">
+                <span>Atrián</span>
+            </div>
+            <p>Email: atrianrs@sinodalprado.com</p>
+            <p>Instagram: @atrianrs</p>
+            <p>Endereço: Av. Rambla del Prado, 660 - Prado Bairro Cidade, Gravataí - RS, 94195-340</p>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
